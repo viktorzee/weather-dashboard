@@ -5,12 +5,12 @@ Welcome to the Interactive Weather Dashboard project! This dashboard provides re
 
 Weather Dashboard Screenshot
 # Table of Contents
-    * Getting Started
+   * Getting Started
       * Prerequisites
       * Installation
-    * Usage
-    * Features
-    * License
+   * Usage
+   * Features
+   * License
 
 # Getting Started
   # Prerequisites
@@ -35,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
    ```
    npm run dev
    ```
-   Open your web browser and navigate to http://localhost:3000 to access the interactive weather dashboard.
+   Open your web browser and navigate to http://localhost:3000 or the host specified on your server to access the interactive weather dashboard.
 
 2. Use the dashboard to search for weather information for a specific location.
 
