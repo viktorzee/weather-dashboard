@@ -19,14 +19,12 @@ Before you begin, ensure you have met the following requirements:
 
   # Installation
   1. Clone this repository to your local machine using:
-     
     ```
     git clone https://github.com/viktorzee/weather-dashboard.git
     ```
   3. Navigate to the project directory
-     
     ```
-      cd interactive-weather-dashboard
+    cd interactive-weather-dashboard
     ```
   5. Install dependencies
      ```
