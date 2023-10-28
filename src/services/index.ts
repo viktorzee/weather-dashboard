@@ -61,7 +61,7 @@ export const setCurrentLocation = ({
     setNextDaysWeatherData(await getNextDaysWeather(lat, lon, isMetric));
   };
 
-  const errorLocation = async (error: { code: number; message: string }) => {
+  const errorLocation = async () => {
     setWeatherData(await getWeather(36.6881, -3.3697, isMetric));
     setNextDaysWeatherData(
       await getNextDaysWeather(36.6881, -3.3697, isMetric)

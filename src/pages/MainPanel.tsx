@@ -13,12 +13,12 @@ const MainPanel = () => {
      locationRef,
    } = useWeather();
 
-  const windSpeed = Math.round(weatherData?.wind?.speed || 0);
-  const humidity = weatherData?.main?.humidity;
-  const visibility = weatherData?.visibility;
-  const pressure = weatherData?.main?.pressure;
+  // const windSpeed = Math.round(weatherData?.wind?.speed || 0);
+  // const humidity = weatherData?.main?.humidity;
+  // const visibility = weatherData?.visibility;
+  // const pressure = weatherData?.main?.pressure;
 
-  const windSpeedUnit = isMetric ? "m/s" : "mph";
+  // const windSpeedUnit = isMetric ? "m/s" : "mph";
 
   return (
       <WeatherContext.Provider

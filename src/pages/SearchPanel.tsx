@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import background from "../assets/images/Cloud-background.png";
 import { IconCurrentLocation, IconMapPinFilled,IconSunHigh,IconMoon } from "@tabler/icons-react";
 import { Popover } from "@headlessui/react";
