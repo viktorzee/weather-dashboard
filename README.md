@@ -14,22 +14,22 @@ Weather Dashboard Screenshot
 
 # Getting Started
   # Prerequisites
-Before you begin, ensure you have met the following requirements:
-    Node.js and npm installed on your machine.
+  Before you begin, ensure you have met the following requirements:
+  * Node.js and npm installed on your machine.
 
   # Installation
-  1. Clone this repository to your local machine using:
-    ```
-    git clone https://github.com/viktorzee/weather-dashboard.git
-    ```
-  3. Navigate to the project directory
-    ```
-    cd interactive-weather-dashboard
-    ```
-  5. Install dependencies
-     ```
-     npm install
-     ```
+    1. Clone this repository to your local machine using:
+      ```
+      git clone https://github.com/viktorzee/weather-dashboard.git
+      ```    
+    2. Navigate to the project directory
+      ```
+      cd interactive-weather-dashboard
+      ```
+    3. Install dependencies
+      ```
+      npm install
+      ```
 # Usage
 1. Start the development Server
    ```
