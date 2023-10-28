@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ @layer components { 
+     .hightlightcardStyle {
+          @apply w-[328px] dark:bg-[#1E213A] h-44 flex flex-col text-center dark:text-white p-5 bg-blue-600 text-white;
+     }
+ }
