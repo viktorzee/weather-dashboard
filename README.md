@@ -1,34 +1,52 @@
-# Interactive-Weather-Dashboard
+#Weather-Dashboard
 # Weather App
 
-This Weather App is designed to provide users with up-to-date weather information for any city or location. 
+Welcome to the Interactive Weather Dashboard project! This dashboard provides real-time weather data for locations around the world. You can use this dashboard to check the current weather conditions, as well as view a 5-day weather forecast for any selected location.
 
-## Requirements
+Weather Dashboard Screenshot
+# Table of Contents
+    * Getting Started
+      * Prerequisites
+      * Installation
+    * Usage
+    * Features
+    * License
 
-### User Interface:
-- [x] Design a responsive and visually appealing user interface using HTML and CSS.
-- [x] Provide an input field where users can enter the name of a city or location.
-- [x] Display the current weather conditions, including temperature, weather description, humidity, wind speed, and an icon representing the weather.
-- [x] Show a 5-day forecast with each day's date, weather icon, high and low temperatures.
+# Getting Started
+  # Prerequisites
+Before you begin, ensure you have met the following requirements:
+    Node.js and npm installed on your machine.
 
-### Functionality:
-- [x] Fetch weather data from a weather API of your choice ( OpenWeatherMap )using asynchronous requests.
-- [x] Allow users to submit the city name or location and retrieve weather data upon form submission.
-- [x] Convert temperature units between Celsius and Fahrenheit, and ensure a smooth transition without reloading the page.
+  # Installation
+  1. Clone this repository to your local machine using:
+    ```
+    git clone https://github.com/viktorzee/weather-dashboard.git
+    ```
+  2. Navigate to the project directory
+    ```
+      cd interactive-weather-dashboard
+    ```
+  3. Install dependencies
+     ```
+     npm install
+     ```
+# Usage
+1. Start the development Server
+   ```
+   npm run dev
+   ```
+   Open your web browser and navigate to http://localhost:3000 to access the interactive weather dashboard.
 
-### Data Visualization:
-- [x] Use charts or graphs to visually represent temperature trends for the 5-day forecast.
-- [x] Display a graph for hourly temperature variations for the current day.
+2. Use the dashboard to search for weather information for a specific location.
 
-### Geolocation:
-- [x] Implement a geolocation feature that automatically detects the user's current location and displays weather information for that location.
+3. View real-time weather updates and forecasts for the next 5 days.
 
-### Error Handling:
-- [x] Handle errors gracefully, such as invalid city names, network errors, or API request failures.
-- [x] Provide informative error messages to the user.
+4. Customize the settings, including toggling between Celsius and Fahrenheit temperature units.
+    
+# Features
 
-### Advanced Features (Choose at least one):
-- [x] Implement a feature that allows users to switch between light and dark themes.
-- Add a search history section that keeps track of recently searched locations.
-- Integrate a map to display the location of the city along with its weather data.
-
+  * Search for weather data by location.
+  * Real-time weather updates.
+  * View a 5-day weather forecast for the selected location.
+  * Toggle between Celsius and Fahrenheit temperature units.
+  * Responsive design for various screen sizes.    
