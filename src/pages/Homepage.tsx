@@ -104,7 +104,7 @@ const Homepage = () => {
                     isMetric={isMetric}
                   />
                 )}
-                <div className="grid grid-cols-2 lg:gap-x-4 lg:gap-y-3 md:grid-cols-3 lg:grid-cols-3 md:gap-4 gap-3">
+                <div className="grid grid-cols-2 lg:gap-x-4 lg:gap-y-3 md:grid-cols-3 lg:grid-cols-3  xl:grid-cols-5 md:gap-4 gap-3">
                   {dayMeasurements &&
                     Object.entries(dayMeasurements).map(([date, info]) => {
                       const formattedDate = formatDate(new Date(date));

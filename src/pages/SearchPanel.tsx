@@ -29,8 +29,8 @@ const SearchPanel = ({theme, setTheme}: any) => {
             />
             <div className=" flex flex-col">
               <div className="flex justify-between w-full p-5">
-                <Popover.Button className="dark:bg-gray-500 bg-indigo-800 py-1.5 px-2 text-white outline-none">
-                  Seach for places
+                <Popover.Button className="dark:bg-gray-500 bg-indigo-800 py-1.5 px-2 text-white outline-none" data-cy="search-bar-button">
+                  Search for places
                 </Popover.Button>
                 <div className="flex space-x-2">
                   <div className="w-10 h-10 rounded-full dark:bg-gray-500 bg-indigo-800 flex justify-center items-center">
@@ -92,11 +92,8 @@ const SearchPanel = ({theme, setTheme}: any) => {
                   </div>
                 </div>
               </div>
-              <Popover.Panel className="absolute  z-40 h-screen w-[400px] md:w-full">
-                <div className="dark:bg-[#1E213A] bg-indigo-700 shadow-xl">
-                  <Searcher />
-                </div>
-              </Popover.Panel>
+              {/* display he search bar */}
+              <Searcher />               
             </div>            
           </section>
         </Popover>
