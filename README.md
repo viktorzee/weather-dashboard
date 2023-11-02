@@ -1,7 +1,7 @@
 #Weather-Dashboard
 # Weather App
 
-Welcome to the Interactive Weather Dashboard project! This dashboard provides real-time weather data for locations around the world. You can use this dashboard to check the current weather conditions, as well as view a 5-day weather forecast for any selected location.
+Welcome to the Weather Dashboard project! This dashboard provides real-time weather data for locations around the world. You can use this dashboard to check the current weather conditions, as well as view a 5-day weather forecast for any selected location.
 
 Weather Dashboard Screenshot
 # Table of Contents
